@@ -3,6 +3,8 @@
     <string name="txtSplash">Sounds of Hawaii</string>
     <string name="ukulele">Ukulele Image</string>
     <string name="drums">Drums Image</string>
-    <string name="btnUkulele">Play Ukulele Song</string>
-    <string name="btnDrums">Play Drums Song</string>
+    <string name="btnUkulelePlay">Play Ukulele Song</string>
+    <string name="btnUkulelePause">Pause Ukulele Song</string>
+    <string name="btnDrumsPlay">Play Drums Song</string>
+    <string name="btnDrumsPause">Pause Drums Song</string>
 </resources>
