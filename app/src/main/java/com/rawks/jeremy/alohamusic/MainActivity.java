@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity
                     btnUkulele.setText(R.string.btnUkulelePause);
                     btnDrums.setVisibility(View.INVISIBLE);
                     break;
-                case 1:
+                case MUSIC_PLAYING:
                     mpUkulele.pause();
                     playing = MUSIC_NOT_PLAYING;
                     btnUkulele.setText(R.string.btnUkulelePlay);
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity
                     btnDrums.setText(R.string.btnDrumsPause);
                     btnUkulele.setVisibility(View.INVISIBLE);
                     break;
-                case 1:
+                case MUSIC_PLAYING:
                     mpDrums.pause();
                     playing = MUSIC_NOT_PLAYING;
                     btnDrums.setText(R.string.btnDrumsPlay);
